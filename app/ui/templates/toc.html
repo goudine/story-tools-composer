@@ -1,7 +1,6 @@
 <div class="sidebar-toc-content">
   <h1 class="sidebar-title"><strong>Table of Contents</strong></h1>
-  <p ng-if="composerMode" ng-hide="viewerMode" class="sidebar-instructions">Click and drag to re-order chapters.</p>
-  <button ng-if="composerMode" ng-hide="viewerMode" ng-click="stateSvc.addNewChapter()" class="sidebar-button">Add New Chapter</button>
+  <p ng-if="composerMode" ng-hide="viewerMode" class="sidebar-instructions">Click and drag to re-order chapters. here</p>
   <div ng-repeat="chapter in stateSvc.config.chapters" class="contents-chapter">
       <div class="contents-summary">
           <h2 class="chapter-number">{{ chapter.index}}</h2>
